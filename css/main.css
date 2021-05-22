@@ -55,3 +55,65 @@ ul li{
 	font-weight: 100;
 	font-size: 16px;
 }
+
+.button1
+{
+	border: white 2px solid;
+	background-color: transparent;
+	padding: 15px 32px 14px 32px;
+	color: white;
+}
+
+.social1{
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+
+.social2{
+	padding-top: 29px;
+}
+
+.social2 i{
+	color: gray;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 42pt;
+}
+
+p{
+	font-size: 14pt;
+	color: gray;
+	font-family: "open-sans";
+}
+
+h2{
+	font-size: 20pt;
+	font-family: "open-sans";
+}
+
+.button2{
+	padding: 16px 25px 17px 25px;
+	background-color: #ff8b38;
+	border-radius: 2px;
+	border: none;
+	color: white;
+	font-size: 12pt;
+}
+
+.nav-pills .nav-link.active{
+	background-color: #ff8b38 !important;
+}
+
+.nav-link{
+	width: 112px;
+	height: 112px;
+	background-color: #333;
+	color: white;
+	margin-top: 1px;
+	text-align: center;
+	padding-top: 45px !important;
+}
+
+.nav-link:hover{
+	color: #ff8b38
+}
