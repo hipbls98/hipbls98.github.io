@@ -17,7 +17,6 @@
 }
 
 .logo{
-	margin-left: 150px;
 }
 
 .bg-black{
@@ -81,14 +80,18 @@ ul li{
 }
 
 p{
-	font-size: 14pt;
+	font-size: 11pt;
 	color: gray;
-	font-family: "open-sans";
 }
 
 h2{
-	font-size: 20pt;
-	font-family: "open-sans";
+	font-size: 16pt !important;
+}
+
+.bg2{
+	background-color: #F3F3F3;
+	padding-top: 147px;
+	padding-bottom: 115px;
 }
 
 .button2{
@@ -104,7 +107,7 @@ h2{
 	background-color: #ff8b38 !important;
 }
 
-.nav-link{
+a#v-pills-home-tab{
 	width: 112px;
 	height: 112px;
 	background-color: #333;
@@ -114,6 +117,48 @@ h2{
 	padding-top: 45px !important;
 }
 
-.nav-link:hover{
+a#v-pills-profile-tab{
+	width: 112px;
+	height: 112px;
+	background-color: #333;
+	color: white;
+	margin-top: 1px;
+	text-align: center;
+	padding-top: 45px !important;
+}
+
+a#v-pills-messages-tab{
+	width: 112px;
+	height: 112px;
+	background-color: #333;
+	color: white;
+	margin-top: 1px;
+	text-align: center;
+	padding-top: 45px !important;
+}
+
+.nav-link1:hover{
 	color: #ff8b38
+}
+
+#sublist{
+	margin-top: 111px;
+}
+
+.line1{
+	border: #ff8b38 1px solid;
+	width: 75px;
+	margin: 0;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#sublist i{
+	color: #ff8b38;
+	width: 40px;
+	height: 40px;
+	border: #ff8b38 1px solid;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 11px;
 }
