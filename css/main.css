@@ -399,3 +399,37 @@ footer a{
 	margin: 10px  10px 20px 10px;
 }
 
+@media (max-width: 736px){
+	.header-txt{
+		font-size: 24pt;
+	}
+	
+	.min-tilte{
+		font-size: 16pt!important;
+	}
+	
+	#social i{
+		font-size: 16pt;
+		margin-right: 12px;
+		margin-left: 12px;
+	}
+	
+	a#v-pills-home-tab{
+	width: 75px;
+	height: 120px;
+	padding-top: 50px !important;
+}
+
+a#v-pills-profile-tab{
+	width: 75px;
+	height: 120px;
+	padding-top: 50px !important;
+}
+
+a#v-pills-messages-tab{
+	width: 75px;
+	height: 120px;
+	padding-top: 50px !important;
+}
+	
+}
