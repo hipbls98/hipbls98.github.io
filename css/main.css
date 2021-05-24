@@ -27,12 +27,8 @@ ul li{
 	padding: 0 20px 0px 20px;
 }
 
-.img1{
-	margin-top: 110px;
-}
-
-.img2{
-	width: 100%;
+.slider{
+	padding-top: 40px;
 }
 
 .text1
@@ -72,15 +68,13 @@ ul li{
 	padding-bottom: 22px;
 }
 
-.social2{
-	padding-top: 29px;
-}
 
-.social2 i{
+#social i{
 	color: gray;
 	margin-right: 20px;
 	margin-left: 20px;
 	font-size: 42pt;
+	margin-top: 20px;
 }
 
 p{
@@ -161,6 +155,10 @@ section{
 	border-radius: 20px;
 	text-align: center;
 	padding-top: 11px;
+}
+
+.sub-img{
+	width: 100%;
 }
 
 #standard-pic
@@ -251,3 +249,67 @@ section{
     color: #ACACAC;
 	text-transform: uppercase;
 }
+
+
+#download{
+	background-image: url("../images/05.png");
+	background-size: cover;
+	color: #fff;
+	background-position: center;
+	padding: 70px 0;
+	
+}
+
+#download hr{
+	border: #fff 1px solid;
+	width: 50px;
+}
+
+#contact hr{
+	border: #ff8b38 1px solid;
+	width: 50px;
+}
+
+.contact-intro{
+	margin-bottom: 50px;
+}
+
+.form-inp {
+    width: 100%;
+    height: 45px;
+    border: 0;
+    color: #000;
+    border-bottom: solid 1px #dfdfdf;
+    font-size: 13px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+#contact textarea {
+    width: 100%;
+    border: 0;
+    border-bottom: solid 1px #dfdfdf;
+    font-size: 13px;
+    padding: 20px 0 0 10px;
+    height: 165px;
+}
+
+#contact .btn-position{
+	justify-content: center;
+	display: flex;
+}
+
+.bg3{
+	background-color: black;
+	padding-top: 38px;
+	padding-bottom: 25px;
+	color:#6C6C6C;
+}
+
+
+
+footer a{
+	color: white;
+	margin: 10px ;
+}
+
