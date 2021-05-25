@@ -77,7 +77,7 @@ ul li{
 .content-header-txt{
 	color: white;
 	margin-bottom: 30px;
-	font-family: RBT-Light;
+	font-family: RBT-Thin;
 	font-size: 12pt!important;
 }
 
@@ -407,7 +407,11 @@ footer a{
 	margin: 10px  10px 20px 10px;
 }
 
-@media (max-width: 736px){
+footer i{
+	margin-bottom: 10px;
+}
+
+@media (max-width: 767px){
 	.header-txt{
 		font-size: 24pt;
 	}
@@ -423,22 +427,31 @@ footer a{
 	}
 	
 	a#v-pills-home-tab{
-	width: 75px;
-	height: 120px;
-	padding-top: 50px !important;
+		width: 75px;
+		height: 120px;
+		padding-top: 50px !important;
+	}
+
+	a#v-pills-profile-tab{
+		width: 75px;
+		height: 120px;
+		padding-top: 50px !important;
+	}
+
+	a#v-pills-messages-tab{
+		width: 75px;
+		height: 120px;
+		padding-top: 50px !important;
+	}
 }
 
-a#v-pills-profile-tab{
-	width: 75px;
-	height: 120px;
-	padding-top: 50px !important;
-}
-
-a#v-pills-messages-tab{
-	width: 75px;
-	height: 120px;
-	padding-top: 50px !important;
-}
+@media (min-width: 768px) and (max-width: 1199px){
+	#social i{
+		font-size: 28pt;
+		margin-right: 12px;
+		margin-left: 12px;
+		margin-top: 50px;
+	}
 }
 
 #myBtn {
@@ -490,3 +503,38 @@ a#v-pills-messages-tab{
 color: rgba(255,95,219,1.00);
 }
 
+#social a{
+	text-decoration: none;
+}
+
+footer .fa-facebook:hover{
+	color:rgba(15,0,212,1.00);
+}
+
+footer a{
+	text-decoration: none !important;
+}
+
+footer .fa-pinterest:hover{
+	color:rgba(185,0,3,1.00);
+}
+
+footer .fa-twitter:hover{
+	color: rgba(22,135,255,1.00);
+}
+
+footer .fa-google-plus:hover{
+	color: rgba(255,0,4,1.00);
+}
+
+footer .fa-twitch:hover{
+	color: rgba(200,0,255,1.00);
+}
+
+footer .fa-stumbleupon:hover{
+	color: rgba(255,71,0,1.00);
+}
+
+footer .fa-instagram:hover{
+color: rgba(255,95,219,1.00);
+}
