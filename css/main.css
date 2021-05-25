@@ -442,7 +442,7 @@ a#v-pills-messages-tab{
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
+  display: block; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
@@ -461,3 +461,32 @@ a#v-pills-messages-tab{
   background-color: #ff8b38;/* Add a dark-grey background on hover */
 	color: white;
 }
+
+#social .fa-pinterest:hover{
+	color:rgba(185,0,3,1.00);
+}
+
+#social .fa-facebook:hover{
+	color:rgba(15,0,212,1.00);
+}
+
+#social .fa-twitter:hover{
+	color: rgba(22,135,255,1.00);
+}
+
+#social .fa-google-plus:hover{
+	color: rgba(255,0,4,1.00);
+}
+
+#social .fa-twitch:hover{
+	color: rgba(200,0,255,1.00);
+}
+
+#social .fa-stumbleupon:hover{
+	color: rgba(255,71,0,1.00);
+}
+
+#social .fa-instagram:hover{
+color: rgba(255,95,219,1.00);
+}
+

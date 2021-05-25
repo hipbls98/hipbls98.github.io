@@ -11,7 +11,10 @@
 
 <body>
 	
-<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa fa-angle-double-up"></i></button>
+<!--<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa fa-angle-double-up"></i></button>-->
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top" style="opacity: 1; visibility: visible;"><i class="fa fa fa-angle-double-up"></i>
+    </button>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-black">
     <div class="container"> <a class="navbar-brand logo" href="#"><img src="images/Logo01.png"></a>
@@ -357,26 +360,40 @@
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
 <script>
-//Get the button:
-mybutton = document.getElementById("myBtn");
+	
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+        function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                mybutton.style.opacity = 1;
+                mybutton.style.visibility = "visible";
+            } else {
+                mybutton.style.opacity = 0;
+                mybutton.style.visibility = "hidden";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            })
+        }
+        function downFunction() {
+            md = document.getElementById("social-md");
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+            window.scrollTo({
+                top: md.offsetTop,
+                behavior: "smooth"
+            })
+        }
+    
 </script>
 
 </body>
